@@ -50,15 +50,6 @@ void get_array(int m,Array &A)
     }
 }
 
-void get_rand_array(int m,Array &A)
-{
-   int sz;
-   cout<<"Enter the size of array::";
-   cin>>sz;
-   int randArray[sz];
-   for(int i=0;i<sz;i++)
-      randArray[i]=rand()%100; 
-}
 
 
 void Array::QUICK(int BEG,int END,int& LOC)
