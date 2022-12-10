@@ -17,6 +17,20 @@ class graph
     public:
         graph(int N,int** G);
         friend void print(graph &Graph);
+        void show_parents();
+        int getParent(int index){
+            return parents[index];
+        }
+        int getColor(int index){
+            return colors[index];
+        }
+        int* getAdj(int index){
+            // returns a pointer to a list containing adjacent
+            // nodes ana 
+            int* Adj = new int[nodes + 1];
+            int count = 0
+            for(int adj = 0 ; adj < )
+        }
 };
 
 graph::graph(int N,int** G){
@@ -42,12 +56,20 @@ graph::graph(int N,int** G){
     }
 }
 
+// To print Adjacency matrix
 void print(graph &Graph){
     for(int i = 0 ; i < Graph.nodes ; i++){
         for(int j = 0 ; j < Graph.nodes ; j++){
             cout << Graph.Adj[i][j] << " ";
         }
         cout << "\n";
+    }
+}
+
+void graph::show_parents(){
+    cout << "Node\tParent" << "\n";
+    for(int k = 0 ; k < nodes ; k++){
+        cout << k << parents[k] << endl ;
     }
 }
 

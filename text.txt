@@ -1,0 +1,43 @@
+Cochin University of Science and Technology
+Department of Computer Science
+Integrated M.Sc in Computer Science ( AI & DS )
+21-805-0306:Lab 5-Algorithms Lab
+semester-3
+
+
+Lab cycle 1
+Sl no   	Question	Hours	Course outcome	Cognitive level
+1	Sort a given set of elements using the Quicksort method
+Determine the time required
+to sort the elements.
+Repeat the experiment for different values of n, the number of
+elements in the list to be sorted and plot a graph of the time taken versus n. The elements
+can be read from a file or can be generated using the random number generator.	2	CO1,CO2	L3
+2	Print all the nodes reachable from a given starting node in a digraph using BFS method	2	CO1,CO2	L3
+3	Check whether a given graph is connected or not using DFS method	2	CO1,CO2	L3
+4	From a given vertex in a weighted connected graph, find shortest paths to other vertices
+using Dijkstra's algorithm	2	CO1,CO2	L3
+5	Implement All-Pairs Shortest Paths Problem using Floyd's algorithm.
+	2	CO1,CO2	L3
+Lab cycle 2
+Sl no   	Question	Hours	Course outcome	Cognitive level
+1	implement Bellman Ford’s Algorithm.
+	2	CO1,CO2	L3
+2	Compute the transitive closure of a given directed graph using Warshall's algorithm	2	CO1,CO2	L3
+3	Find Minimum Cost Spanning Tree of a given undirected graph using Kruskal's
+algorithm	2	CO1,CO2	L3
+4	Find Minimum Cost Spanning Tree of a given undirected graph using Prim’s algorithm.	2	CO1,CO2	L3
+5	Obtain the Topological ordering of vertices in a given digraph	2	CO1,CO2	L3
+Lab cycle 3
+Sl no   	Question	Hours	Course outcome	Cognitive level
+1	Implement matrix chain multiplication using dynamic programming	2	CO1,CO2	L3
+2	Implement 0/1 Knapsack problem using Dynamic Programming	2	CO1,CO2	L3
+3	Implement Huffman coding using Greedy algorithm	2	CO1,CO2	L3
+4	Implement N Queens problem using Backtracking	2	CO1,CO2	L3
+				
+5	Implement any scheme to find the optimal solution for the Traveling
+Sales Person problem and then solve the same problem instance using
+any approximation algorithm and determine the error in the
+approximation.	2	CO1,CO2	L3
+				
+
